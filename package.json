@@ -1,12 +1,9 @@
 {
-    "name": "rdb-demo",
-    "version": "0.3.5",
-    "main": "index.js",
     "dependencies": {
-        "rdb": "0.4.8",
+        "rdb": "0.4.9",
         "promise": "6.1.0",
-        "pg": "4.2.0",
-        "mysql": "2.5.4"
+        "pg": "4.3.0",
+        "mysql": "2.5.5"
     },
     "jshintConfig": {
         "asi": true,
