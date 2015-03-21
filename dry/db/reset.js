@@ -1,6 +1,6 @@
 var fs = require('fs');
 var promise = require('promise');
-var conString = require('./dry/db/connectionString');
+var conString = require('./connectionString');
 var pg = require('pg');
 var mySql = require('mysql');
 

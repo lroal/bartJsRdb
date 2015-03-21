@@ -1,0 +1,1 @@
+module.exports = require('./dry/db/reset.js');
