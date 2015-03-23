@@ -1,7 +1,7 @@
 var rdb = require('rdb');
 
 var dbPg = rdb('postgres://demoUser:demoPassword@localhost/bartJs');
-var dbMySql = rdb.mySql('mysql://demoUser:demoPassword@localhost/rdbDemo?multipleStatements=true');
+var dbMySql = rdb.mySql('mysql://demoUser:demoPassword@localhost/bartJs?multipleStatements=true');
 
 module.exports = connectPg()
     .then(connectMySql)
