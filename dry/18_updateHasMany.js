@@ -17,7 +17,6 @@ function insertOrderLine1() {
     var line = OrderLine.insert('eeeeeeee-0001-0000-0000-000000000000');
     line.orderId = orderIdWithNoLines;
     line.product = 'Roller blades';
-    return line.order;
 }
 
 function insertOrderLine2() {
